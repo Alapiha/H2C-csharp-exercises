@@ -6,9 +6,12 @@ namespace exercise_11
     {
         public static void Main(string[] args)
         {
-            int dayCount = 200;
+            int dayCount = 100;
             double hoursToLunch = 1;
             string statement = "Are you sure?";
+            dayCount = 200;
+            hoursToLunch = 3.5;
+            statement = "It sure is!";
 
             // DO NOT TOUCH THESE!
             Console.WriteLine("Days to summer:");
@@ -18,6 +21,7 @@ namespace exercise_11
             Console.WriteLine("Coding is fun:");
             Console.WriteLine(statement);
 
+            Console.ReadKey();
         }
     }
 }
