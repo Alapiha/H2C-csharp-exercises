@@ -6,9 +6,14 @@ namespace exercise_45
   {
     public static void Main(string[] args)
     {
-
-      // Write your code here:
-
+        int number = Convert.ToInt32(Console.ReadLine());
+        int i = 0;
+        while (i <= number)
+        {
+            Console.WriteLine(i);
+            i++;
+        }
+        Console.ReadKey();
     }
   }
 }
