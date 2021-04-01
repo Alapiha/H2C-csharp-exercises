@@ -6,9 +6,16 @@ namespace exercise_47
   {
     public static void Main(string[] args)
     {
+        Console.WriteLine("Where to?");
+        int whereTo = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Where from?");
+        int whereFrom = Convert.ToInt32(Console.ReadLine());
 
-      // Write your code here:
-      
+        for (int i = whereFrom; i <= whereTo; i++)
+        {
+            Console.WriteLine(i);
+        }
+        Console.ReadKey();
     }
   }
 }
