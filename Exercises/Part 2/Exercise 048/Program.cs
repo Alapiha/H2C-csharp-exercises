@@ -18,13 +18,7 @@ namespace exercise_48
             int number = Convert.ToInt32(Console.ReadLine());
  
             if (number == -1)
-            {
-                Console.WriteLine("Thx! Bye!");
-                Console.WriteLine("Sum: " + sum);
-                Console.WriteLine("Numbers: " + amount);
-                Console.WriteLine("Average: " + average);
-                Console.WriteLine("Even: " + even);
-                Console.WriteLine("Odd: " + odd);
+            {  
                 break;
             }
             else
@@ -43,6 +37,12 @@ namespace exercise_48
                 }
             }
         }
+        Console.WriteLine("Thx! Bye!");
+        Console.WriteLine("Sum: " + sum);
+        Console.WriteLine("Numbers: " + amount);
+        Console.WriteLine("Average: " + average);
+        Console.WriteLine("Even: " + even);
+        Console.WriteLine("Odd: " + odd);
         Console.ReadKey();
  
     }
