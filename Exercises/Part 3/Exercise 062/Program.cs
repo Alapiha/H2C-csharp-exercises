@@ -11,13 +11,13 @@ namespace exercise_62
         List<string> list = new List<string>();
         while (true)
         {
-        string input = Console.ReadLine();
-        if (input == "")
-        {
-          break;
-        }
+            string input = Console.ReadLine();
+            if (input == "")
+            {
+                break;
+            }
 
-        list.Add(input);
+            list.Add(input);
         }
 
       // BEGIN SOLUTION
