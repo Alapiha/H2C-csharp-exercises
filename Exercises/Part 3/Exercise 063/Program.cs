@@ -8,18 +8,19 @@ namespace exercise_63
   {
     public static void Main(string[] args)
     {
-      List<int> list = new List<int>();
-      while (true)
-      {
-        int input = Convert.ToInt32(Console.ReadLine());
-        if (input == 0)
+        List<int> list = new List<int>();
+        while (true)
         {
-          break;
-        }
+            int input = Convert.ToInt32(Console.ReadLine());
+            if (input == 0)
+            {
+                break;
+            }
 
-        list.Add(input);
-      }
-      Console.WriteLine(list[0]);
+            list.Add(input);
+        }
+        Console.WriteLine(list[1] + list[2]);
+        Console.ReadKey();
     }
 
   }
