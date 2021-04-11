@@ -8,9 +8,9 @@ namespace exercise_62
   {
     public static void Main(string[] args)
     {
-      List<string> list = new List<string>();
-      while (true)
-      {
+        List<string> list = new List<string>();
+        while (true)
+        {
         string input = Console.ReadLine();
         if (input == "")
         {
@@ -18,10 +18,11 @@ namespace exercise_62
         }
 
         list.Add(input);
-      }
+        }
 
       // BEGIN SOLUTION
-      Console.WriteLine(list[0]);
+        Console.WriteLine(list[2]);
+        Console.ReadKey();
       // END SOLUTION
     }
 
