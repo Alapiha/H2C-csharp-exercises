@@ -7,17 +7,18 @@ namespace exercise_65
   {
     public static void Main(string[] args)
     {
-      List<string> list = new List<string>();
-      while (true)
-      {
-        string input = Console.ReadLine();
-        if (input == "")
+        List<string> list = new List<string>();
+        while (true)
         {
-          break;
+            string input = Console.ReadLine();
+            if (input == "")
+            {
+                break;
+            }
+            list.Add(input);
         }
-        list.Add(input);
-      }
-
+        Console.WriteLine("In total: " + list.Count);
+        Console.ReadKey();
     }
   }
 }
