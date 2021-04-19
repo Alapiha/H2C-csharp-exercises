@@ -7,15 +7,21 @@ namespace exercise_80
   {
     public static void Main(string[] args)
     {
-      int[] numbers = { 5, 1, 3, 4, 2 };
-      int sum = SumOfNumbersInArray(numbers);
-      Console.WriteLine(sum);
-
+        int[] numbers = { 5, 1, 3, 4, 2 };
+        int sum = SumOfNumbersInArray(numbers);
+        Console.WriteLine(sum);
+        Console.ReadKey();
     }
 
-    public static int SumOfNumbersInArray(int[] numbers) {
-
-      return 0;
+    public static int SumOfNumbersInArray(int[] numbers) 
+    {
+        int sum = 0;
+        for (int i = 0; i < numbers.Length; i++)
+	    {
+            sum = sum + numbers[i];
+		}
+        
+        return sum;
     }
 
   }
