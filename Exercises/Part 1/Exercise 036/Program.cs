@@ -16,8 +16,8 @@ namespace exercise_36
             } 
             if (number < 0)
             {
-                    Console.WriteLine("That is negative");
-                    continue;
+                Console.WriteLine("That is negative");
+                continue;
             }
             Console.WriteLine(number * number);
         }

@@ -22,34 +22,19 @@ namespace exercise_79
         int searching = Convert.ToInt32(Console.ReadLine());
 
       // Implement the search functionality here
-        
-        bool containsNumber = false;
-
-        foreach (int n in array) // go over every number in the list
-        {
-            if (n == searching) // check if it matches
-            {
-                containsNumber = true;
-                
-                break; // no need to check any further
-                
-            }
-        }
-        if (containsNumber = true)
-        { 
-        
-            for (int i = 0; i < array.Length; i++)
-		    {
-                if (array[i] == searching)
-                {         
-                    Console.WriteLine(searching + " is at index " + i);     
-                }  
+        bool isNumberFound = false;
+        for (int i = 0; i < array.Length; i++)
+		{
+            if (array[i] == searching)
+            {         
+                Console.WriteLine(searching + " is at index " + i + ".");
+                isNumberFound = true;
+            }  
            
-            }
         }
-        else (containsNumber = false);
-        {
-            Console.WriteLine("not found");
+        if (isNumberFound == false)
+        {      
+            Console.WriteLine(searching + " was not found.");
         }
         Console.ReadKey();
 		
