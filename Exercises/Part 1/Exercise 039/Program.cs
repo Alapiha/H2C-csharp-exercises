@@ -17,7 +17,7 @@ namespace exercise_39
             } 
             if (number != 0)
             {
-                    sum = sum + number;
+                sum = sum + number;
             }
         }
         Console.WriteLine("Total sum of numbers: " + sum);

@@ -24,7 +24,6 @@ namespace exercise_82
 
         }
 
-    
     }
   }
 }

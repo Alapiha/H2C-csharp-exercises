@@ -17,7 +17,7 @@ namespace exercise_38
             } 
             if (number < 0)
             {
-                    sum = sum + 1;
+                sum = sum + 1;
             }
         }
         Console.WriteLine("Total amount of negative numbers: " + sum);
